@@ -1,0 +1,228 @@
+.about-me h1 {
+  margin: 5rem auto;
+  text-align: center;
+  font-size: 2rem;
+  color: #474747;
+  margin-bottom: 2.5rem;
+}
+
+.about-me-content {
+  text-align: center;
+  line-height: 1.5;
+  width: 76%;
+  font-size: 1.1rem;
+  font-weight: 400;
+  font-family: "Poppins", sans-serif;
+  color: #282828;
+  margin: 0 auto 3rem auto;
+}
+
+.about-me-container-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.about-me-container-content h1 {
+  color: black;
+  display: inline-block;
+  margin-left: 2rem;
+  margin-bottom: 1.5rem;
+  margin-top: 0;
+  color: #003b74b8;
+}
+
+.about-me-container-content p {
+  margin-left: 2rem;
+  font-size: 1.1rem;
+  line-height: 1.5;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  color: #282828;
+}
+
+.profile-img-container {
+  width: 100rem;
+}
+
+.about-me-items {
+  font-family: "Poppins", sans-serif;
+  margin-top: 2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-left: 2rem;
+  line-height: 2.5;
+  color: #282828;
+}
+
+.li-item-margin {
+  margin-right: 0.5rem;
+  color: #0563bb;
+}
+
+.about-me-item-bold {
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.about-me-item-light {
+  font-weight: 500;
+  font-size: 18px;
+  margin-left: 10px;
+}
+
+.about-me-para {
+  font-size: 1.1rem;
+  color: #282828;
+  font-family: "Poppins", sans-serif;
+  margin-top: 1.2rem;
+  line-height: 1.5;
+  font-weight: 400;
+}
+
+@media screen and (max-width: 1200px) {
+  .about-me-content {
+    text-align: justify;
+  }
+  .about-me-container-content {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .about-me-content {
+    width: 85%;
+  }
+  .about-me h1 {
+    font-size: 2.2rem;
+  }
+  .about-me-content {
+    font-size: 1.2rem;
+  }
+  .profile-img-container {
+    width: 50%;
+  }
+  .about-me-content-title h1 {
+    display: block;
+    margin: 2rem 0 1.5rem 0;
+    font-size: 2.1rem;
+  }
+  .about-me-content-title p {
+    text-align: justify;
+    font-size: 1.2rem;
+    margin-left: 0;
+  }
+  .about-me-items {
+    width: auto;
+    margin-bottom: 2.5rem;
+    margin-left: 0;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .hero-content {
+    text-align: center;
+    margin-left: 0;
+  }
+  .hero-content p {
+    font-size: 2.2rem;
+    text-align: left;
+    margin-left: 7.65rem;
+  }
+  .hero-content .hero-span {
+    font-size: 2.2rem;
+  }
+  .about-me-content {
+    font-size: 1.1rem;
+  }
+  .about-me-content-title p {
+    font-size: 1.1rem;
+    text-align: justify;
+  }
+  .about-me-items {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+  }
+  .skills h1 {
+    font-size: 2.2rem;
+  }
+  .skills .skill-container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+    gap: 5rem;
+  }
+  .skills .skill-img {
+    width: 90%;
+  }
+  .skills .skill-gif {
+    width: 90%;
+  }
+  .skills .skill-container {
+    height: auto;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .hero-content h1 {
+    font-size: 3.5rem;
+  }
+  .hero-content p {
+    font-size: 2.1rem;
+    margin-left: 5.2rem;
+  }
+  .hero-content .hero-span {
+    font-size: 2.1rem;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .hero-content p {
+    margin-left: 4.3rem;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .about-me-content {
+    font-size: 1rem;
+  }
+  .about-me-content-title p {
+    font-size: 1rem;
+  }
+  .about-me-content-title h1 {
+    font-size: 2rem;
+  }
+  .about-me-item-bold {
+    font-size: 14px;
+  }
+  .about-me-item-light {
+    font-size: 14px;
+    margin-left: 5px;
+  }
+  .skills {
+    margin-top: 2rem;
+  }
+}
+/*# sourceMappingURL=aboutme.css.map */

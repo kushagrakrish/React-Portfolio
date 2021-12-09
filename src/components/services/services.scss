@@ -1,0 +1,80 @@
+.services {
+  // // display: flex;
+  // justify-content: space-between;
+  // align-items: center;
+  // background-color: #fafafb;
+  text-align: center;
+  min-height: 60vh;
+  margin-top: 8rem;
+  h1 {
+    margin-bottom: 5rem;
+    color: #474747;
+    font-size: 2rem;
+  }
+}
+.services-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  // width: 80%;
+}
+.card {
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+  width: 410px;
+  height: 330px;
+  box-shadow: 4px 12px 47px 0 rgba(145, 145, 145, 0.1);
+  transition: all 0.2s ease-in;
+  border: 0;
+  h2 {
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #0563bb;
+
+    // margin-bottom: 1.5rem;
+  }
+  p {
+    color: #282828;
+    text-align: center;
+    font-size: 18px;
+    line-height: 1.5;
+    font-weight: 400;
+  }
+}
+.card-img-container {
+  height: 5rem;
+  // margin-bottom: 2rem;
+}
+.service-arrow {
+  font-size: 2rem;
+  color: #0563bb;
+  cursor: pointer;
+  &:hover {
+    opacity: 0.5;
+    color: #282828;
+    transition: 0.3s ease-in-out;
+  }
+}
+@media screen and(max-width:1200px) {
+  .services-container {
+    flex-wrap: wrap;
+    gap: 4rem;
+    justify-content: center;
+  }
+  .skill-gif {
+    width: 40%;
+  }
+  .skill-img {
+    width: 50%;
+  }
+}
+@media screen and(max-width:1150px) {
+  .services-container {
+    // margin-top: 7rem;
+    justify-content: center;
+    // margin-bottom: 7rem;
+  }
+}

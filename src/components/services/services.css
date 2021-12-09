@@ -1,0 +1,104 @@
+.services {
+  text-align: center;
+  min-height: 60vh;
+  margin-top: 8rem;
+}
+
+.services h1 {
+  margin-bottom: 5rem;
+  color: #282828;
+  font-size: 2rem;
+}
+
+.services-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.card {
+  font-family: "Poppins", sans-serif;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 410px;
+  height: 330px;
+  -webkit-box-shadow: 4px 12px 47px 0 rgba(145, 145, 145, 0.1);
+          box-shadow: 4px 12px 47px 0 rgba(145, 145, 145, 0.1);
+  -webkit-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
+  border: 0;
+}
+
+.card h2 {
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #0563bb;
+}
+
+.card p {
+  color: #282828;
+  text-align: center;
+  font-size: 18px;
+  line-height: 1.5;
+  font-weight: 400;
+}
+
+.card-img-container {
+  height: 5rem;
+}
+
+.service-arrow {
+  font-size: 2rem;
+  color: #0563bb;
+  cursor: pointer;
+}
+
+.service-arrow:hover {
+  opacity: 0.5;
+  color: #282828;
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+}
+
+@media screen and (max-width: 1200px) {
+  .services-container {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    gap: 4rem;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .skill-gif {
+    width: 40%;
+  }
+  .skill-img {
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 1150px) {
+  .services-container {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+/*# sourceMappingURL=services.css.map */

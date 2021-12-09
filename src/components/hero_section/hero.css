@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+.hero-section {
+  background: url("./DPF.png");
+  background-size: cover;
+  background-position: center;
+  height: 93vh;
+  width: 100%;
+  margin-top: 4.42rem;
+  position: relative;
+}
+
+.hero-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 100%;
+  margin-left: 15rem;
+  text-align: left;
+  font-size: 2.65rem;
+}
+
+.hero-content h1 {
+  margin-bottom: 1rem;
+  color: white;
+}
+
+.hero-content p {
+  font-size: 2rem;
+}
+
+.typewriter {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.typewriter span {
+  margin-right: 8px;
+  font-size: 2rem;
+}
+
+.typecolor {
+  color: #0563bb;
+  font-size: 2rem;
+  font-weight: 300;
+  font-family: "Raleway", sans-serif;
+}
+/*# sourceMappingURL=hero.css.map */

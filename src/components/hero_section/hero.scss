@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+.hero-section {
+  background: url("./DPF.png");
+  background-size: cover;
+  background-position: center;
+  height: 93vh;
+  width: 100%;
+  margin-top: 3.5rem;
+  position: relative;
+  // opacity: 35%;
+}
+.hero-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+  padding: 0 10rem;
+  text-align: left;
+  font-size: 2.65rem;
+  h1 {
+    margin-bottom: 1rem;
+    // color: #282828;
+    color: white;
+  }
+  p {
+    font-size: 2rem;
+  }
+}
+.typewriter {
+  display: flex;
+  align-items: center;
+  span {
+    margin-right: 8px;
+    font-size: 2rem;
+  }
+}
+.typecolor {
+  color: #0563bb;
+  font-size: 2rem;
+  font-weight: 300;
+  font-family: "Raleway", sans-serif;
+}
+@media screen and(max-width:930px) {
+  .hero-content {
+    font-size: 2.2rem;
+  }
+}
+@media screen and(max-width:820px) {
+  .hero-content {
+    font-size: 2rem;
+  }
+}
+@media screen and(max-width:780px) {
+  .hero-content {
+    font-size: 1.8rem;
+  }
+}
+@media screen and(max-width:740px) {
+  .hero-content {
+    padding: 0 3rem;
+  }
+}
+@media screen and(max-width:420px) {
+  .typewriter span {
+    font-size: 1.8rem;
+  }
+}
+@media screen and(max-width:380px) {
+  .typewriter span {
+    font-size: 1.5rem;
+  }
+}

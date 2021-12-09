@@ -1,0 +1,97 @@
+.form-name {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  gap: 1.5rem;
+  font-family: "Poppins", sans-serif;
+  width: 90%;
+}
+
+.form-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 1.2rem;
+  font-family: "Poppins", sans-serif;
+}
+
+.form-card {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+  width: 650px;
+  height: 350px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-shadow: 4px 12px 47px 0 rgba(104, 104, 104, 0.137);
+          box-shadow: 4px 12px 47px 0 rgba(104, 104, 104, 0.137);
+  border-radius: 5px;
+}
+
+.form-container,
+input,
+textarea {
+  font-size: 15px;
+  font-family: "Poppins", sans-serif;
+  color: black;
+  padding: 10px 15px;
+  width: 90%;
+}
+
+.form-container,
+input::-webkit-input-placeholder,
+textarea::-webkit-input-placeholder {
+  font-family: "Poppins", sans-serif;
+  color: #383838;
+}
+
+.form-container,
+input:-ms-input-placeholder,
+textarea:-ms-input-placeholder {
+  font-family: "Poppins", sans-serif;
+  color: #383838;
+}
+
+.form-container,
+input::-ms-input-placeholder,
+textarea::-ms-input-placeholder {
+  font-family: "Poppins", sans-serif;
+  color: #383838;
+}
+
+.form-container,
+input::placeholder,
+textarea::placeholder {
+  font-family: "Poppins", sans-serif;
+  color: #383838;
+}
+
+.form-btn {
+  background: #0563bb;
+  font-family: "Poppins", sans-serif;
+  border: 0;
+  padding: 10px 24px;
+  color: #fff;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+  border-radius: 5px;
+  font-size: 16px;
+}
+/*# sourceMappingURL=form.css.map */

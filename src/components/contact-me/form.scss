@@ -1,0 +1,94 @@
+.form-name {
+  display: flex;
+  justify-content: space-between;
+  gap: 1.5rem;
+  font-family: "Poppins", sans-serif;
+  width: 90%;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+  font-family: "Poppins", sans-serif;
+  align-items: center;
+}
+
+.form-card {
+  align-items: center;
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+  width: 450px;
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  box-shadow: 4px 12px 47px 0 rgba(104, 104, 104, 0.137);
+  border-radius: 5px;
+  padding: 20px 0;
+}
+.form-container,
+input,
+textarea {
+  font-size: 15px;
+  font-family: "Poppins", sans-serif;
+  color: black;
+  padding: 15px 15px;
+  width: 90%;
+  resize: none;
+  height: 11%;
+}
+.form-container,
+textarea {
+  height: 80%;
+}
+.form-container,
+input::placeholder,
+textarea::placeholder {
+  font-family: "Poppins", sans-serif;
+  color: rgb(56, 56, 56);
+}
+
+.form-btn {
+  background: #0563bb;
+  font-family: "Poppins", sans-serif;
+  border: 0;
+  padding: 10px 24px;
+  color: #fff;
+  transition: 0.4s;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  &:hover {
+    background-color: #003c74;
+    transition: 0.2s ease-in-out;
+  }
+}
+
+@media screen and (max-width: 510px) {
+  .form-card {
+    width: 400px;
+    height: 550px;
+  }
+}
+@media screen and (max-width: 460px) {
+  .form-card {
+    width: 350px;
+    height: 550px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .form-card {
+    width: 320px;
+    height: 550px;
+  }
+}
+.text-input {
+  font-size: 15px;
+  font-family: "Poppins", sans-serif;
+  color: black;
+  padding: 15px 15px;
+  width: 90%;
+  resize: none;
+  height: 11%;
+}

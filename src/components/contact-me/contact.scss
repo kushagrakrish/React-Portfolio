@@ -1,0 +1,222 @@
+// **************** Contact Me Styling *********************
+.contact-me {
+  min-height: 60vh;
+  // background-color: rgba(206, 206, 206, 0.034);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 3.5rem;
+}
+
+.contact-me-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.social-title-img-container {
+  width: 50px;
+  // background: black;
+  display: inline-block;
+  // margin-bottom: 1.2rem;
+}
+.contact-card-2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 600px;
+  height: 300px;
+  text-align: center;
+  gap: 3rem;
+}
+.contact-card-1 {
+  align-items: center;
+  text-align: center;
+  width: 600px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  box-shadow: 4px 12px 47px 0 rgba(104, 104, 104, 0.137);
+  border-radius: 5px;
+  h2 {
+    font-size: 1.2rem;
+    color: #282828;
+    margin-top: -3rem;
+    text-transform: uppercase;
+    font-weight: 700;
+  }
+}
+.social-media-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 45%;
+  margin-top: -3rem;
+  a {
+    &:hover {
+      opacity: 0.4;
+      transition: all 0.2s ease-in-out;
+    }
+  }
+}
+.social-img-container {
+  width: 38px;
+  display: inline-block;
+  margin: 0 10px;
+}
+.email-img-container {
+  width: 50px;
+  display: inline-block;
+  margin-bottom: 25px;
+}
+.phone-img-container {
+  width: 50px;
+  display: inline-block;
+  margin-bottom: 25px;
+}
+.contact-card-email {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 250px;
+  width: 100%;
+  box-shadow: 4px 12px 47px 0 rgba(104, 104, 104, 0.137);
+  border-radius: 5px;
+
+  h2 {
+    margin-top: -1.65rem;
+    text-transform: uppercase;
+    font-size: 1.2rem;
+  }
+  p {
+    margin-top: -1.65rem;
+    font-weight: 600;
+  }
+  a {
+    color: black;
+    &:hover {
+      color: #0563bb;
+      transition: 0.2s ease-in-out;
+    }
+  }
+}
+
+.contact-card-phone {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 250px;
+  width: 100%;
+  box-shadow: 4px 12px 47px 0 rgba(104, 104, 104, 0.137);
+  border-radius: 5px;
+  h2 {
+    margin-top: -1.65rem;
+    text-transform: uppercase;
+    font-size: 1.2rem;
+  }
+  p {
+    margin-top: -1.65rem;
+    font-weight: 600;
+    a {
+      color: black;
+      &:hover {
+        color: #0563bb;
+        transition: 0.2s ease-in-out;
+      }
+    }
+  }
+}
+
+@media screen and(max-width:1000px) {
+  .header-item {
+    // margin-left: 0;
+    font-size: 1rem;
+  }
+}
+@media screen and(max-width:770px) {
+  // .header-container {
+  //   display: none;
+  // }
+
+  .social-img-container-footer {
+    width: 65%;
+  }
+}
+
+@media screen and(max-width:1420px) {
+  .social-img-container-footer {
+    width: 45%;
+  }
+}
+@media screen and(max-width:1120px) {
+  .social-img-container-footer {
+    width: 50%;
+  }
+}
+@media screen and(max-width:1000px) {
+  .social-media-footer {
+    width: 30%;
+  }
+}
+@media screen and(max-width:820px) {
+  .social-media-footer {
+    width: 40%;
+  }
+}
+@media screen and(max-width:620px) {
+  .social-media-footer {
+    width: 45%;
+  }
+}
+@media screen and(max-width:420px) {
+  .social-media-footer {
+    width: 55%;
+  }
+}
+@media screen and(max-width:1100px) {
+  .contact-card-1 {
+    width: 265%;
+    margin-bottom: 2.5rem;
+  }
+  .contact-card-2 {
+    width: 265%;
+    flex-direction: column;
+    height: auto;
+    margin-top: 1rem;
+  }
+  .contact-card-email,
+  .contact-card-phone {
+    width: 100%;
+    margin: 1rem auto;
+  }
+}
+
+@media screen and (max-width: 510px) {
+  .contact-card-1 {
+    width: 230%;
+  }
+  .contact-card-2 {
+    width: 230%;
+  }
+}
+@media screen and (max-width: 460px) {
+  .contact-card-1 {
+    width: 200%;
+  }
+  .contact-card-2 {
+    width: 200%;
+  }
+}
+@media screen and (max-width: 400px) {
+  .contact-card-1 {
+    width: 185%;
+  }
+  .contact-card-2 {
+    width: 185%;
+  }
+}
