@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import "./hero.scss";
 import { Typewriter } from "react-simple-typewriter";
+// import video from "../hero_section/video.mp4";
 
 export class Hero extends Component {
   // constructor(props) {
@@ -23,7 +24,7 @@ export class Hero extends Component {
         <div className='hero-content'>
           <h1>Kushagra Krishna</h1>
           <div className='typewriter'>
-            <span> I'm </span>
+            <span className='span-class'> I'm </span>
             <div className='typecolor'>
               <Typewriter
                 words={["A Web Developer", "A Designer", "A Photographer"]}
