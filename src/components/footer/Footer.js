@@ -49,7 +49,10 @@ export class Footer extends Component {
         <div className='footer-container wrapper'>
           {/* <h2>Kushagra Krishna</h2> */}
           <div className='social-media-footer'>
-            <FooterItem img={fb} path='https://google.com' />
+            <FooterItem
+              img={fb}
+              path='https://www.facebook.com/kushagra.krishna.37/'
+            />
             <FooterItem img={git} path='https://google.com' />
             <FooterItem img={ig} path='https://google.com' />
             <FooterItem img={linkedin} path='https://google.com' />
