@@ -53,9 +53,15 @@ export class Footer extends Component {
               img={fb}
               path='https://www.facebook.com/kushagra.krishna.37/'
             />
-            <FooterItem img={git} path='https://google.com' />
-            <FooterItem img={ig} path='https://google.com' />
-            <FooterItem img={linkedin} path='https://google.com' />
+            <FooterItem img={git} path='https://github.com/kushagrakrish' />
+            <FooterItem
+              img={ig}
+              path='https://www.instagram.com/kushhhagrakrish/'
+            />
+            <FooterItem
+              img={linkedin}
+              path='www.linkedin.com/in/kushagra-krishna-69b22a179'
+            />
           </div>
           <ul className='footer-item'>
             {navItems.map((navItem, idx) => (

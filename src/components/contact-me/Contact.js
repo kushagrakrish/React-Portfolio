@@ -10,7 +10,12 @@ import share from "../contact-me/share.svg";
 
 export const SocialImg = (props) => {
   return (
-    <a href={props.link} className='social-link'>
+    <a
+      href={props.link}
+      className='social-link'
+      target='_blank'
+      rel='noreferrer'
+    >
       <div className='social-img-container'>
         <img src={props.img} alt='' />
       </div>
@@ -29,10 +34,19 @@ export class Contact extends Component {
             </div>
             <h2>Social Profiles</h2>
             <div className='social-media-container'>
-              <SocialImg link='www.google.com' img={fb} />
-              <SocialImg img={git} />
-              <SocialImg img={ig} />
-              <SocialImg img={linkedin} />
+              <SocialImg
+                link='https://www.facebook.com/kushagra.krishna.37/'
+                img={fb}
+              />
+              <SocialImg img={git} link='https://github.com/kushagrakrish' />
+              <SocialImg
+                img={ig}
+                link='https://www.instagram.com/kushhhagrakrish/'
+              />
+              <SocialImg
+                img={linkedin}
+                link='www.linkedin.com/in/kushagra-krishna-69b22a179'
+              />
             </div>
           </div>
           <div className='contact-card-2'>
