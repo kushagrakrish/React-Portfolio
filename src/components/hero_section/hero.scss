@@ -66,13 +66,26 @@
     padding: 0 3rem;
   }
 }
-@media screen and(max-width:420px) {
-  .typewriter span {
-    font-size: 1.8rem;
-  }
-}
-@media screen and(max-width:380px) {
-  .typewriter span {
-    font-size: 1.5rem;
+// @media screen and(max-width:450px) {
+//   .typewriter span {
+//     font-size: 1.8rem;
+//   }
+// }
+// @media screen and(max-width:380px) {
+//   .typewriter span {
+//     font-size: 1.5rem;
+//   }
+// }
+@media screen and(max-width:450px) {
+  .hero-content {
+    h1 {
+      font-size: 3rem;
+    }
+    .span-class {
+      font-size: 1.7rem;
+    }
+    .typewriter span {
+      font-size: 1.7rem;
+    }
   }
 }
