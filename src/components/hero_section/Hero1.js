@@ -36,10 +36,7 @@ function Hero1() {
             </div>
           </div>
         </div>
-        <div className='container' ref={container}>
-          {" "}
-          <a href='#about-me' />
-        </div>
+        <div className='container' ref={container}></div>
       </div>
     </section>
   );
