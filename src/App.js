@@ -5,6 +5,7 @@ import Form from "./components/contact-me/Form";
 import Footer from "./components/footer/Footer";
 import { Header } from "./components/header/Header";
 import Hero from "./components/hero_section/Hero";
+import Hero1 from "./components/hero_section/Hero1";
 import Services from "./components/services/Services";
 import Skills from "./components/skills/Skills";
 
@@ -12,7 +13,8 @@ function App() {
   return (
     <>
       <Header />
-      <Hero />
+      {/* <Hero /> */}
+      <Hero1 />
       <Aboutme />
       <Skills />
       <Services />

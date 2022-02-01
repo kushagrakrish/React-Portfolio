@@ -1,26 +1,23 @@
-import React, { Component, useEffect, useRef } from "react";
+import React, { useEffect, useRef } from "react";
 import "./hero.scss";
 import { Typewriter } from "react-simple-typewriter";
+import Lottie from "lottie-web";
 
-export class Hero extends Component {
-  // constructor(props) {
-  //   super(props);
-
-  //   this.handleType = this.handleType.bind(this);
-  //   this.handleDone = this.handleDone.bind(this);
-  // }
-
-  // handleType(count) {
-  //   console.log(count);
-  // }
-
-  // handleDone() {
-  //   console.log(`Done after 5 loops!`);
-  // }
-  render() {
-    return (
-      <section className='hero-section' id='home'>
-        <div className='hero-content'>
+function Hero1() {
+  const container = useRef(null);
+  useEffect(() => {
+    Lottie.loadAnimation({
+      container: container.current,
+      renderer: "svg",
+      loop: true,
+      autoplay: true,
+      animationData: require("../hero_section/scrool.json"),
+    });
+  }, []);
+  return (
+    <section className='hero-section' id='home'>
+      <div className='hero-content'>
+        <div className='type-wrapper'>
           <h1>Kushagra Krishna</h1>
           <div className='typewriter'>
             <span className='span-class'> I'm </span>
@@ -39,9 +36,13 @@ export class Hero extends Component {
             </div>
           </div>
         </div>
-      </section>
-    );
-  }
+        <div className='container' ref={container}>
+          {" "}
+          <a href='#about-me' />
+        </div>
+      </div>
+    </section>
+  );
 }
 
-export default Hero;
+export default Hero1;

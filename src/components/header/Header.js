@@ -61,7 +61,14 @@ export class Header extends Component {
             >
               {navItems.map((navitem, idx) => (
                 <li key={idx} className='header-items'>
-                  <a href={navitem.path}>{navitem.label}</a>
+                  <a
+                    href={navitem.path}
+                    onClick={() =>
+                      this.setState({ navBarClose: !this.state.navBarClose })
+                    }
+                  >
+                    {navitem.label}
+                  </a>
                 </li>
               ))}
             </ul>

@@ -14,10 +14,10 @@
 .hero-content {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-between;
   height: 100%;
   padding: 0 10rem;
-  text-align: left;
+  // text-align: left;
   font-size: 2.65rem;
   h1 {
     margin-bottom: 1rem;
@@ -45,6 +45,16 @@
   font-size: 2rem;
   font-weight: 300;
   font-family: "Raleway", sans-serif;
+}
+.container {
+  // color: white;
+  height: 4rem;
+  margin: 0 auto;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+.type-wrapper {
+  margin-top: 20rem;
 }
 @media screen and(max-width:930px) {
   .hero-content {
